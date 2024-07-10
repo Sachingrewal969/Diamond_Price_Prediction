@@ -1,0 +1,101 @@
+body {
+    
+    font-family: Arial, sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,104,117,1) 71%, rgba(0,212,255,1) 100%);
+    padding: 0;
+    display: flex;
+    height: 110vh;
+}
+
+h1 {
+    color: #333;
+}
+#heading{
+    font-family: "Wittgenstein", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    color: #ef9013;
+}
+form {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(247,247,247,1) 0%, rgba(44,78,83,1) 0%, rgba(113,229,251,1) 100%);
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 5px;
+    /* width: 50%; */
+    max-width: 700px;
+}
+form:hover{
+    border:2px solid #ef9013;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    color :#ef9013;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"], select {
+   background-color:#e3e3e3;
+   font:bold;
+   color:black  ;
+    width: 100%;
+    padding: 10px;
+    /* margin-top: 5px; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:hover, select:hover {
+    border: 2px solid orange;
+}
+
+input[type="submit"] {
+    background-color:#ef9013;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+input[type="reset"] {
+    background-color:#ef9013;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.form-submit{
+    margin-left: 523px;
+}
+input[type="submit"]:hover {
+    background-color: #cc7b11;
+}
+
+input[type="reset"]:hover {
+    background-color: #cc7b11;
+}
+.center {
+    text-align: center;
+
+}
+
+img{
+    width:40px;
+    height:auto;
+}
+img:hover{
+    color: #cc7b11;
+    filter: hue-rotate(180deg);
+}
