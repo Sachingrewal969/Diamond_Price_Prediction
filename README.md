@@ -1,6 +1,6 @@
 # 💎 Diamond Price Prediction
 
-### 📌 **Project Overview**
+### **Project Overview**
 
 This project aims to predict the price of diamonds based on their physical attributes using machine learning models. The dataset includes features like carat, cut, color, clarity, depth, table, and dimensions. The goal is to build an accurate model to estimate diamond prices based on these characteristics.
 
@@ -8,7 +8,7 @@ This project aims to predict the price of diamonds based on their physical attri
 
 The dataset used for this project is sourced from https://www.kaggle.com/competitions/playground-series-s3e8/data?select=train.csv(https://www.kaggle.com/competitions/playground-series-s3e8/data?select=train.csv). It contains information about various diamonds, including their attributes and corresponding prices. The dataset is provided in csv format and can be found in the data directory.
 
-### 🛠️ **Tech Stack**
+### **Tech Stack**
 
 ***Programming Language***: Python 3.10
 
@@ -18,7 +18,7 @@ The dataset used for this project is sourced from https://www.kaggle.com/competi
 
 ***Deployment***: Flask API with a Pickle-based model
 
-### 📊 **Data Processing & Feature Engineering**
+### **Data Processing & Feature Engineering**
 
 ✔ Data Cleaning (Handling missing values, outliers)
 
@@ -28,30 +28,30 @@ The dataset used for this project is sourced from https://www.kaggle.com/competi
 
 ✔ Model Training and Hyperparameter Tuning
 
-### 🏆 **Model Performance**
+### **Model Performance**
 
 ***Evaluation Metrics***:RMSE, R² Score
 
 ***Best Model***: XGBoost with optimized hyperparameters
 
-### 🚀 **How to Run the Project**
+### **How to Run the Project**
 
-1️⃣ Clone the repository
+1. Clone the repository
 
 git clone https://github.com/yourusername/Diamond_Price_Prediction.git
 cd Diamond_Price_Prediction
 
-2️⃣ Install dependencies
+2. Install dependencies
 
 pip install -r requirements.txt
 
-3️⃣ Run the Flask app
+3. Run the Flask app
 
 python app.py
 
-4️⃣ Access the web interface at http://127.0.0.1:5000/
+4. Access the web interface at http://127.0.0.1:5000/
 
-### 📌 **Results & Insights**
+### **Results & Insights**
 
 Carat weight has the highest impact on price
 
@@ -59,24 +59,24 @@ Cut, color, and clarity significantly influence the price
 
 Feature scaling and encoding improved model accuracy
 
-### 📁 **Project Structure**
+### **Project Structure**
 
-📂 Diamond_Price_Prediction  
- ├── 📂 data             # Dataset and preprocessing  
- ├── 📂 notebooks        # EDA & model training notebooks  
- ├── 📂 model            # Trained model files  
- ├── 📂 app              # Flask web app  
+Diamond_Price_Prediction  
+ ├── data             # Dataset and preprocessing  
+ ├── notebooks        # EDA & model training notebooks  
+ ├── model            # Trained model files  
+ ├── app              # Flask web app  
  ├── requirements.txt    # Dependencies  
  ├── README.md           # Project Documentation  
  └── app.py              # Flask API  
  
-### 🎯 **Future Enhancements**
+### **Future Enhancements**
 
-✅ Deploy on a cloud platform (AWS/GCP)
+Deploy on a cloud platform (AWS/GCP)
 
-✅ Implement advanced ML models (Neural Networks)
+Implement advanced ML models (Neural Networks)
 
-✅ Enhance the UI for better user interaction
+Enhance the UI for better user interaction
 
 # Live link
 https://diamond-price-prediction-g2td.onrender.com/
