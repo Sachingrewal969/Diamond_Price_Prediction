@@ -20,13 +20,13 @@ The dataset used for this project is sourced from https://www.kaggle.com/competi
 
 ### **Data Processing & Feature Engineering**
 
-✔ Data Cleaning (Handling missing values, outliers)
+Data Cleaning (Handling missing values, outliers)
 
-✔ Feature Engineering (Scaling, Encoding categorical features)
+Feature Engineering (Scaling, Encoding categorical features)
 
-✔ Exploratory Data Analysis (EDA) with visualizations
+Exploratory Data Analysis (EDA) with visualizations
 
-✔ Model Training and Hyperparameter Tuning
+Model Training and Hyperparameter Tuning
 
 ### **Model Performance**
 
